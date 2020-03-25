@@ -47,6 +47,16 @@
                 width: 350px;
             }
 
+            .tg .topic_title_disabled {
+                            width: 25%;
+                            font-color: Gray;
+                            border-color: inherit;
+                            font-size: 20px;
+                            text-align: left;
+                            vertical-align: top;
+                            width: 350px;
+                        }
+
             .tg .topic_desc {
                 width: 70%;
                 border-color: inherit;
