@@ -13,10 +13,17 @@ a:visited {
 }
 
 a:hover {
-  color: Navy;
   text-decoration: underline;
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+pre {
+  display: block;
+  white-space: pre-wrap;
+  padding: 20px;
+  font-family: monospace;
+  color: Navy;
 }
