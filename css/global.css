@@ -21,8 +21,26 @@ a:active {
 }
 
 
+p.title {
+  font-size:28px;
+}
+
+img {
+  color: Navy;
+  border-radius: 2px;
+  border: 2px dotted Orange;
+}
+
+
 
 pre {
+  background: #fdf5e6;
+  color: Navy;
+  padding: 20px 0px 20px 0px;
+  border-radius: 2px;
+  border-top: 0px solid #00aeef;
+  -moz-box-shadow: inset 0 0 10px #000;
+  box-shadow: inset 0 0 10px #000;
   counter-reset: line;
 }
 
