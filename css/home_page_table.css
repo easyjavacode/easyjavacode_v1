@@ -3,12 +3,14 @@
             border-spacing: 0;
             border-color: #ccc;
             font-family: Consolas;
+            border-width: 1px;
+            border-style: solid;
         }
 
             .tg td {
                 font-size: 16px;
                 padding: 10px 10px;
-                border-style: solid;
+                border-style: dotted;
                 border-width: 1px;
                 overflow: hidden;
                 word-break: normal;
@@ -41,14 +43,22 @@
             .tg .topic_title {
                 width: 25%;
                 border-color: inherit;
-                font-size: 20px;
+                font-weight: bold;
                 text-align: left;
                 vertical-align: top;
-                width: 350px;
             }
 
+            .tg .topic_title_disabled {
+                            width: 25%;
+                            border-color: inherit;
+
+                            color: #B8B8B8;
+                            text-align: left;
+                            vertical-align: top;
+                        }
+
             .tg .topic_desc {
-                width: 70%;
+                width: 75%;
                 border-color: inherit;
                 text-align: left;
                 vertical-align: top;
