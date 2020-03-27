@@ -88,8 +88,17 @@ label:hover {
 input[type="radio"] {
 	display: none;
 }
-#edit:checked + li, #archive:checked + li, #tools:checked + li, #preferences:checked + li {
-	height: 179px;
+#welcome:checked + li {
+	height: 140px;
+}
+#installation:checked + li {
+	height: 175px;
+}
+#basicsyntax:checked + li {
+	height: 175px;
+}
+#comments:checked + li {
+	height: 105px;
 }
 i {
 	margin-right: 12px;
