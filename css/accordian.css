@@ -19,14 +19,14 @@ nav {
 	align-items: flex-start;
 	width: 275px;
 	height: 100%;
-	background-color: #fff2df;
+	background-color: White;  /* left menu vertical left bar empty space */
 }
 main {
 	position: fixed;
 	right: 0;
 	width: 80%;
 	height: 100%;
-	background-color: #fff;
+	background-color: White;  /* Right Page */
 	overflow: auto;
 	padding: 40px;
 }
@@ -53,6 +53,7 @@ li, ul label.title, ul, a {
 }
 ul label {
 	height: 35px;
+	border-top: 2px dotted Gray;
 }
 ul li{
 	height: 35px;
@@ -61,27 +62,35 @@ ul li{
 }
 li {
 	display: block;
-	background-color: #363636;
+	background-color: White;  /*  Selected main module topics */
 }
 label.title {
 	font-size: 14px;
-	background-color: #fff2df;
+	background-color: White;
 	padding: 10px 15px;
 	cursor: pointer;
-  transition: all .25s;
+    transition: all .25s;
 }
 a{
 	font-size: 12px;
 	text-decoration: none;
-	color: #FFF;
+	color: #Black;
 	display: block;
 	padding: 10px 25px;
 	transition: all .25s;
 }
 a:hover {
-	background-color: #444;
-  box-shadow: inset 5px 0px 0px 0px #fff;
+  background-color: #ffe4b2;  /* Hover of topic */
+  box-shadow: inset 5px 0px 0px 0px Orange;  /* left side bar */
+  color: Black;
 }
+
+.selected-topic {
+  background-color: #ffe4b2;  /* Hover of topic */
+  box-shadow: inset 5px 0px 0px 0px Orange;  /* left side bar */
+  color: Black;
+}
+
 label:hover {
 	text-shadow: 0px 0px 10px Orange;
 }

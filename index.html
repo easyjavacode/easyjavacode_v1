@@ -5,11 +5,17 @@
     <title> Easy Java Code </title>
     <link href="css/global.css" rel="stylesheet" />
     <link href="css/accordian.css" rel="stylesheet" />
+    <link href="css/page_layout.css" rel="stylesheet" />
+
 </head>
 
 <body>
 
 <div class="container">
+
+    <div id="header"><h2> Easy Java Code </h2> </div>
+
+    <div id="sidebar-left">
     <nav class="menu">
         <ul>
             <input type="radio" name="menu" id="welcome" checked>
@@ -34,22 +40,33 @@
                 <label for="basicsyntax" class="title"></i> Basic Syntax </label>
                 <a href="#"> Create a New Project </a>
                 <a href="#"> Hello World program </a>
-                <a href="#"> main() method</a>
+                <a class="selected-topic" href="#"> main() method </a>
                 <a href="#"> System.out.println() </a>
             </li>
 
             <input type="radio" name="menu" id="comments">
             <li>
                 <label for="comments" class="title"></i> Comments </label>
-                <a href="#"> Different types of Commenting </a>
+                <a href="#"> Different Types of Commenting </a>
                 <a href="#"> Exercises / Demo </a>
             </li>
         </ul>
     </nav>
-    <main class="main">
-        <h1>This is a vertical accordion menu only HTML and CSS</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. s expedita in. Sint, numquam recusandae id repellendus delectus porro, ipsa a harum obcaecati blanditiis cum accusantium optio voluptate dicta voluptatum. Ipsa nobis aliquid accusantium illum aliquam impedit! Sunt est aliquid ipsam sequi vel repudiandae minima alias earum facere nisi nostrum voluptatum tenetur, iusto illo harum aliquam reprehenderit porro molestias quas possimus voluptatem, doloribus, maiores ea ullam. Sint accusamus vel adipisci delectus nesciunt inventore, exercitationem saepe nulla, dignissimos cum</p>
-    </main>
+    </div>
+
+    <div id="main">
+        <h3> Different Types of Commenting Styles </h3>
+        <br/>
+        Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code. <br>
+
+        Single-line comments start with two forward slashes (//). <br>
+
+        Any text between // and the end of the line is ignored by Java (will not be executed). <br>
+
+        This example uses a single-line comment before a line of code:<p>   <br>
+
+        </p>
+    </div>
 </div>
 
 </body>

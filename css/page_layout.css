@@ -1,0 +1,26 @@
+			#header{
+				width:100%;
+				height:0px;
+				text-align: left;
+				padding-left: 35px;
+				padding-top: 8px;
+				font-family: "Comic Sans MS", cursive, sans-serif;
+				color: Black;
+			}
+
+			#sidebar-left{
+				float:left;
+				width: 275px;
+				background-color: red;
+				height: 100%;
+			}
+
+			#main{
+				float:left;
+				width:85%;
+				padding-left: 25px;
+			}
+
+			#sidebar-left, #main, #sidebar-right{
+				min-height: 600px
+			}
