@@ -1,0 +1,43 @@
+code {
+  display: block;
+  white-space: pre-wrap;
+  padding: 15px;
+  font-family: monospace;
+  color: Navy;
+  background-color: #fdf5e6;
+  width: 100%;
+}
+
+p.title {
+  font-size:28px;
+}
+
+pre {
+  background: #fdf5e6;
+  color: Navy;
+  padding: 20px 0px 0px 0px;
+  border-radius: 2px;
+  border-top: 0px solid #00aeef;
+  -moz-box-shadow: inset 0 0 10px #000;
+  box-shadow: inset 0 0 10px #000;
+  counter-reset: line;
+}
+pre span {
+  display: block;
+  line-height: 0.4rem;
+}
+
+syntax.comment {
+    color: gray;
+}
+
+pre span:before {
+  counter-increment: line;
+  content: counter(line);
+  display: inline-block;
+  border-right: 0px solid #ddd;
+  padding: 0 .5em;
+  margin-right: .5em;
+  width: 20px;
+  color: #888
+}

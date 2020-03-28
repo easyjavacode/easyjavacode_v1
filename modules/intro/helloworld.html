@@ -5,20 +5,80 @@
     <title> Hello World! </title>
     <link href="../../css/global.css" rel="stylesheet" />
     <link href="../../css/page.css" rel="stylesheet" />
+    <link href="../../css/accordian.css" rel="stylesheet" />
+    <link href="../../css/page_layout.css" rel="stylesheet" />
+    <link href="../../css/code.css" rel="stylesheet" />
 </head>
 
 <body>
 
-<p class="title"> Hello World! </p>
+<div class="container">
 
-<p>
-    Most training tutorials illustrate the first example using the <b> Hello World! </b> program.  These is the first
-    program for a newbie because it is easy to write and execute.
-</p>
+    <div id="header"> </div>
+    <div id="sidebar-left">
+        <ul>
+            <input type="radio" name="menu" id="welcome">
+            <li>
+                <label for="welcome" class="title"></i> Welcome </label>
+                <a href="#"> About </a>
+                <a href="#"> Course Overview </a>
+                <a href="#"> Prerequisites </a>
+            </li>
 
-<p>
-    <img alt="first image" src="codeimage01.PNG">
-</p>
+            <input type="radio" name="menu" id="installation">
+            <li>
+                <label for="installation" class="title"></i> Installation </label>
+                <a href="#"> What is IntelliJ? </a>
+                <a href="#"> Prerequisites to Installation </a>
+                <a href="#"> Java JDK </a>
+                <a href="#"> Installation of IntelliJ </a>
+            </li>
+
+            <input type="radio" name="menu" id="basicsyntax" checked>
+            <li>
+                <label for="basicsyntax" class="title"></i> Basic Syntax </label>
+                <a href="#"> Create a New Project </a>
+                <a class="selected-topic" href="#"> Hello World program </a>
+                <a href="mainmethod.html"> main() method </a>
+                <a href="#"> System.out.println() </a>
+            </li>
+
+            <input type="radio" name="menu" id="comments">
+            <li>
+                <label for="comments" class="title"></i> Comments </label>
+                <a href="#"> Different Types of Commenting </a>
+                <a href="#"> Exercises / Demo </a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="main">
+
+        <p class="title"> Hello World! </p>
+
+        <p>
+            Most training tutorials illustrate the first example using the <b> Hello World! </b> program.  These is the first
+            program for a newbie because it is easy to write and execute.
+        </p>
+
+        <p>
+            <img alt="first image" src="codeimage01.PNG">
+        </p>
+
+
+
+        <pre>
+<span>public class Main {</span>
+<span>    public static void main(String[] args) {</span>
+<span>        System.out.println("Hello World!  This is my first program.");  <syntax class="comment"> // Note that this is an important paragraph. :)</syntax> </span>
+<span>    }</span>
+<span>}</span>
+</pre>
+
+
+    </div>
+</div>
+
 
 
 </body>

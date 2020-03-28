@@ -2,10 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title> Easy Java Code </title>
-    <link href="css/global.css" rel="stylesheet" />
-    <link href="css/accordian.css" rel="stylesheet" />
-    <link href="css/page_layout.css" rel="stylesheet" />
+    <title> Hello World! </title>
+    <link href="../../css/global.css" rel="stylesheet" />
+    <link href="../../css/page.css" rel="stylesheet" />
+    <link href="../../css/accordian.css" rel="stylesheet" />
+    <link href="../../css/page_layout.css" rel="stylesheet" />
+    <link href="../../css/code.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -15,7 +17,7 @@
     <div id="header"> </div>
     <div id="sidebar-left">
         <ul>
-            <input type="radio" name="menu" id="welcome" checked>
+            <input type="radio" name="menu" id="welcome">
             <li>
                 <label for="welcome" class="title"></i> Welcome </label>
                 <a href="#"> About </a>
@@ -32,11 +34,11 @@
                 <a href="#"> Installation of IntelliJ </a>
             </li>
 
-            <input type="radio" name="menu" id="basicsyntax">
+            <input type="radio" name="menu" id="basicsyntax" checked>
             <li>
                 <label for="basicsyntax" class="title"></i> Basic Syntax </label>
                 <a href="#"> Create a New Project </a>
-                <a href="modules/intro/helloworld.html"> Hello World program </a>
+                <a href="helloworld.html"> Hello World program </a>
                 <a class="selected-topic" href="#"> main() method </a>
                 <a href="#"> System.out.println() </a>
             </li>
@@ -51,19 +53,28 @@
     </div>
 
     <div id="main">
-        <h3> Different Types of Commenting Styles </h3>
-        <br/>
-        Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code. <br>
 
-        Single-line comments start with two forward slashes (//). <br>
+        <p class="title"> Main Method </p>
 
-        Any text between // and the end of the line is ignored by Java (will not be executed). <br>
-
-        This example uses a single-line comment before a line of code:<p>   <br>
-
+        <p>
+            Discuss the main method.
         </p>
+
+
+
+        <pre>
+<span>public class Main {</span>
+<span>    public static void main(String[] args) {</span>
+<span>        System.out.println("Hello World!  This is my first program.");  <syntax class="comment"> // Note that this is an important paragraph. :)</syntax> </span>
+<span>    }</span>
+<span>}</span>
+</pre>
+
+
     </div>
 </div>
+
+
 
 </body>
 </html>
