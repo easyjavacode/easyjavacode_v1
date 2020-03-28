@@ -38,7 +38,5 @@ p.title {
 }
 
 img {
-  color: Navy;
-  border-radius: 2px;
-  border: 2px dotted Orange;
+  padding: 20px 0px 0px 0px;
 }

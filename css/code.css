@@ -3,8 +3,7 @@ code {
   white-space: pre-wrap;
   padding: 15px;
   font-family: monospace;
-  color: Navy;
-  background-color: #fdf5e6;
+  color: Orange;
   width: 100%;
 }
 
@@ -13,13 +12,8 @@ p.title {
 }
 
 pre {
-  background: #fdf5e6;
-  color: Navy;
   padding: 20px 0px 0px 0px;
-  border-radius: 2px;
-  border-top: 0px solid #00aeef;
-  -moz-box-shadow: inset 0 0 10px #000;
-  box-shadow: inset 0 0 10px #000;
+  border-left: 5px solid Orange;
   counter-reset: line;
 }
 pre span {
@@ -40,4 +34,11 @@ pre span:before {
   margin-right: .5em;
   width: 20px;
   color: #888
+}
+
+#codeimage {
+    width: 100%;
+    background-color: #201f1e;  /*charcoal like */
+    border-left: 5px solid Orange;
+    border-right: 5px solid Orange ;
 }
