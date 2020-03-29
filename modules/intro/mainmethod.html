@@ -6,9 +6,34 @@
     <link href="../../css/accordian.css" rel="stylesheet" />
     <link href="../../css/page_layout.css" rel="stylesheet" />
     <link href="../../css/code.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+     $("#codelines").hide();
+     $("#codelines").css('cursor', 'pointer');
+     $("#codeimage").css('cursor', 'pointer');
+
+      $("#codeimage").on('click',function(){
+         $("#codeimage").hide();
+         $("#codelines").show();
+         $("#codelines").css('cursor', 'pointer');
+      });
+      $("#codelines").on('click',function(){
+         $("#codelines").hide();
+         $("#codeimage").show();
+
+      });
+});
+</script>
+
 </head>
 
 <body>
+
+
+
+
 
 <div class="container">
 
@@ -58,20 +83,39 @@
             Discuss the main method.
         </p>
 
+        A Java method is a collection of statements that are grouped together to perform an operation. When you call the System.out.println() method, for example, the system actually executes several statements in order to display a message on the console.
 
+        <p></p>
+        Now you will learn how to create your own methods with or without return values, invoke a method with or without parameters, and apply method abstraction in the program design.
+
+        <p></p>
         <div id="codeimage">
             <p>
                 <img alt="first image" src="codeimage02.PNG">
             </p>
         </div>
 
+        <div id="codelines">
         <pre>
 <span>public class Main {</span>
 <span>    public static void main(String[] args) {</span>
-<span>        System.out.println("Hello World!  This is my first program.");  <syntax class="comment"> // Note that this is an important paragraph. :)</syntax> </span>
+<span> </span>
+<span>        System.out.println("Hello World!  This is my first program.");  <syntax class="comment"></syntax> </span>
+<span> </span>
 <span>    }</span>
 <span>}</span>
 </pre>
+        </div>
+
+        <p>
+            Discuss the main method.
+        </p>
+
+        A Java method is a collection of statements that are grouped together to perform an operation. When you call the System.out.println() method, for example, the system actually executes several statements in order to display a message on the console.
+
+        <p></p>
+        Now you will learn how to create your own methods with or without return values, invoke a method with or without parameters, and apply method abstraction in the program design.
+
 
 
     </div>

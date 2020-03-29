@@ -1,8 +1,18 @@
+#codeimage, #codelines {
+    width: 100%;
+    background-color: #201f1e;  /*charcoal like */
+    -moz-border-radius: 15px;
+         -webkit-border-radius: 20px;
+         border: solid 1px #3498db;
+         border-radius: 15px;
+         overflow: hidden;
+}
+
 code {
   display: block;
   white-space: pre-wrap;
   padding: 15px;
-  font-family: monospace;
+  font-family: Consolas;
   color: Orange;
   width: 100%;
 }
@@ -12,13 +22,15 @@ p.title {
 }
 
 pre {
+  background-color: #201f1e;  /*charcoal like */
   padding: 20px 0px 0px 0px;
-  border-left: 5px solid Orange;
   counter-reset: line;
+  color: #f5f5f5;
+  font-family: Consolas;
 }
 pre span {
   display: block;
-  line-height: 0.4rem;
+  line-height: 0.1rem;
 }
 
 syntax.comment {
@@ -33,12 +45,5 @@ pre span:before {
   padding: 0 .5em;
   margin-right: .5em;
   width: 20px;
-  color: #888
-}
-
-#codeimage {
-    width: 100%;
-    background-color: #201f1e;  /*charcoal like */
-    border-left: 5px solid Orange;
-    border-right: 5px solid Orange ;
+  color: #8b8b8a
 }
