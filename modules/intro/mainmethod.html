@@ -11,17 +11,13 @@
     <script>
 $(document).ready(function(){
      $("#codelines").hide();
-     $("#codelines").css('cursor', 'pointer');
-     $("#codeimage").css('cursor', 'pointer');
-
-      $("#codeimage").on('click',function(){
+      $("#showcode").on('click',function(){
          $("#codeimage").hide();
-         $("#codelines").show();
-         $("#codelines").css('cursor', 'pointer');
+            $("#codelines").fadeIn(1000);
       });
-      $("#codelines").on('click',function(){
+      $("#shownotes").on('click',function(){
          $("#codelines").hide();
-         $("#codeimage").show();
+            $("#codeimage").fadeIn(1000);
 
       });
 });
@@ -88,6 +84,7 @@ $(document).ready(function(){
         <p></p>
         Now you will learn how to create your own methods with or without return values, invoke a method with or without parameters, and apply method abstraction in the program design.
 
+        <div id="codecontainer">
         <p></p>
         <div id="codeimage">
             <p>
@@ -105,18 +102,28 @@ $(document).ready(function(){
 <span>    }</span>
 <span>}</span>
 </pre>
+
         </div>
 
-        <p>
-            Discuss the main method.
-        </p>
+        <div id="codetoolbar">
+            <img class="codebuttons" alt="copy code" src="../../images/copy_btn.PNG">
+            <img class="codebuttons" alt="answer" src="../../images/answer_btn.PNG">
+            <img class="codebuttons" alt="answer" src="../../images/download_icon.PNG">
+        </div>
+
+        </div>
+
+        <br/>
+        <p class="clear">
+            <br/>
+            Discuss the main method. <br/><br/>
 
         A Java method is a collection of statements that are grouped together to perform an operation. When you call the System.out.println() method, for example, the system actually executes several statements in order to display a message on the console.
+        <br/>
 
-        <p></p>
         Now you will learn how to create your own methods with or without return values, invoke a method with or without parameters, and apply method abstraction in the program design.
 
-
+        </p>
 
     </div>
 </div>

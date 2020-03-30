@@ -1,12 +1,38 @@
 #codeimage, #codelines {
-    width: 100%;
+    width: 90%;
     background-color: #201f1e;  /*charcoal like */
     -moz-border-radius: 15px;
-         -webkit-border-radius: 20px;
-         border: solid 1px #3498db;
+         -webkit-border-radius: 15px;
          border-radius: 15px;
          overflow: hidden;
+         float: left;
 }
+
+#codetoolbar {
+    width: 50px;
+    float: left;
+    padding-left: 10px;
+    height: 200px;
+    margin-left: 10px;
+
+
+}
+
+#shownotes, #showcode {
+     line-height: 12px;
+     width: 80px;
+     font-size: 10pt;
+     font-family: "Helvetica";
+     margin-right: 0px;
+     width: 80px;
+     position:absolute;
+     padding: 5px;
+     top:0;
+     right:0;
+     color: White;
+     background-color: Orange;
+     cursor: pointer;
+ }
 
 code {
   display: block;
@@ -16,6 +42,8 @@ code {
   color: Orange;
   width: 100%;
 }
+
+
 
 p.title {
   font-size:28px;
@@ -47,3 +75,7 @@ pre span:before {
   width: 20px;
   color: #8b8b8a
 }
+
+img.codebuttons:hover {
+  cursor:pointer;
+ }

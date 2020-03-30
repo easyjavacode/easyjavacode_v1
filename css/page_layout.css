@@ -1,7 +1,7 @@
 			body {
               margin: 0px;
-              font-family:"Arial";
-              font-size:18px;
+              font-family: "Lato";
+              font-size:20px;
             }
 
 
@@ -22,7 +22,7 @@
 			}
 
 			#main{
-			    padding: 10px;
+			    padding: 20px;
 				float:left;
 				width:85%;
 			}
@@ -35,6 +35,10 @@
 
 p.title {
   font-size:28px;
+}
+
+p.clear {
+  clear: both;
 }
 
 img {
